@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Input</h1>
+
+	<form>
+<!-- 		<label for="colorField">Username</label>
+		<label for="colorField">What is your favorite color?</label>
+ -->
+		<p>Username <input name="username" type="username" autofocus required></p>
+		<p>Password <input name="password" type="password" required></p>
+		
+		<button>Submit</button>
+	</form>
+
+	<p>Password<input type="password" required></p>	<!-- echoes dots instead of characters -->
+	<p>Are you a robot?<input type="checkbox"></p>	<!-- can be toggled on or off -->
+	<p>Campus
+		<select>
+			<option value="--" selected>Select campus</option> 
+	  		<option value="austin">ATX</option>
+	  		<option value="dallas">DFW</option>
+  		</select>
+	</p>
+	<p>Submit <input type="submit" disabled></p>	<!-- activates the form's submission (a POST request or Javascript action) -->
+
+</body>
+</html>
